@@ -2,11 +2,13 @@ package com.apps.quantitymeasurement;
 
 public class QuantityMeasurementApp {
 
-    // UC3: LengthUnit Enum (conversion factor to base unit FEET)
+    // UC4: Added YARDS and CENTIMETERS
     public enum LengthUnit {
 
         FEET(1.0),
-        INCH(1.0 / 12.0);
+        INCH(1.0 / 12.0),
+        YARD(3.0),
+        CENTIMETER(0.393701 / 12.0); // cm -> inch -> feet
 
         private final double toFeetFactor;
 
@@ -19,7 +21,6 @@ public class QuantityMeasurementApp {
         }
     }
 
-    // UC3: Generic QuantityLength class (replaces Feet and Inch classes)
     public static class QuantityLength {
 
         private final double value;
@@ -49,19 +50,18 @@ public class QuantityMeasurementApp {
         }
     }
 
-    // Main method demo
     public static void main(String[] args) {
 
-        QuantityLength q1 = new QuantityLength(1.0, LengthUnit.FEET);
-        QuantityLength q2 = new QuantityLength(12.0, LengthUnit.INCH);
+        QuantityLength q1 = new QuantityLength(1.0, LengthUnit.YARD);
+        QuantityLength q2 = new QuantityLength(3.0, LengthUnit.FEET);
 
-        System.out.println("Input: Quantity(1.0, \"feet\") and Quantity(12.0, \"inches\")");
+        System.out.println("Input: Quantity(1.0, YARD) and Quantity(3.0, FEET)");
         System.out.println("Output: Equal (" + q1.equals(q2) + ")");
 
-        QuantityLength q3 = new QuantityLength(1.0, LengthUnit.INCH);
-        QuantityLength q4 = new QuantityLength(1.0, LengthUnit.INCH);
+        QuantityLength q3 = new QuantityLength(1.0, LengthUnit.CENTIMETER);
+        QuantityLength q4 = new QuantityLength(0.393701, LengthUnit.INCH);
 
-        System.out.println("Input: Quantity(1.0, \"inch\") and Quantity(1.0, \"inch\")");
+        System.out.println("Input: Quantity(1.0, CENTIMETER) and Quantity(0.393701, INCH)");
         System.out.println("Output: Equal (" + q3.equals(q4) + ")");
     }
 }
