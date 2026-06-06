@@ -128,4 +128,128 @@ public class QuantityTest {
                 )
         );
     }
+
+    @Test
+void testVolumeEquality() {
+
+    Quantity<VolumeUnit> q1 =
+            new Quantity<>(1.0, VolumeUnit.LITRE);
+
+    Quantity<VolumeUnit> q2 =
+            new Quantity<>(1000.0,
+                    VolumeUnit.MILLILITRE);
+
+    assertEquals(q1, q2);
+}
+        @Test
+void testGallonEquality() {
+
+    Quantity<VolumeUnit> q1 =
+            new Quantity<>(1.0,
+                    VolumeUnit.GALLON);
+
+    Quantity<VolumeUnit> q2 =
+            new Quantity<>(3.78541,
+                    VolumeUnit.LITRE);
+
+    assertEquals(q1, q2);
+}
+
+@Test
+void testVolumeConversion() {
+
+    Quantity<VolumeUnit> q =
+            new Quantity<>(1.0,
+                    VolumeUnit.LITRE);
+
+    Quantity<VolumeUnit> converted =
+            q.convertTo(
+                    VolumeUnit.MILLILITRE);
+
+    assertEquals(
+            new Quantity<>(
+                    1000.0,
+                    VolumeUnit.MILLILITRE),
+            converted
+    );
+}
+@Test
+void testGallonToLitreConversion() {
+
+    Quantity<VolumeUnit> q =
+            new Quantity<>(1.0,
+                    VolumeUnit.GALLON);
+
+    Quantity<VolumeUnit> converted =
+            q.convertTo(
+                    VolumeUnit.LITRE);
+    assertEquals(
+            new Quantity<>(
+                    3.79,
+                    VolumeUnit.LITRE),
+            converted
+    );
+}
+
+@Test
+void testVolumeAddition() {
+
+    Quantity<VolumeUnit> q1 =
+            new Quantity<>(1.0,
+                    VolumeUnit.LITRE);
+
+    Quantity<VolumeUnit> q2 =
+            new Quantity<>(1000.0,
+                    VolumeUnit.MILLILITRE);
+
+    Quantity<VolumeUnit> result =
+            q1.add(
+                    q2,
+                    VolumeUnit.LITRE);
+
+    assertEquals(
+            new Quantity<>(
+                    2.0,
+                    VolumeUnit.LITRE),
+            result
+    );
+}
+
+@Test
+void testVolumeAdditionWithGallon() {
+
+    Quantity<VolumeUnit> q1 =
+            new Quantity<>(1.0,
+                    VolumeUnit.LITRE);
+
+    Quantity<VolumeUnit> q2 =
+            new Quantity<>(1.0,
+                    VolumeUnit.GALLON);
+
+    Quantity<VolumeUnit> result =
+            q1.add(
+                    q2,
+                    VolumeUnit.LITRE);
+
+    assertEquals(
+            new Quantity<>(
+                    4.79,
+                    VolumeUnit.LITRE),
+            result
+    );
+}
+
+@Test
+void testVolumeVsLength() {
+
+    Quantity<VolumeUnit> volume =
+            new Quantity<>(1.0,
+                    VolumeUnit.LITRE);
+
+    Quantity<LengthUnit> length =
+            new Quantity<>(1.0,
+                    LengthUnit.FEET);
+
+    assertNotEquals(volume, length);
+}
 }
