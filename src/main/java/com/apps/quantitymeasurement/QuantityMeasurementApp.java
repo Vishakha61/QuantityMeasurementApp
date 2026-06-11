@@ -42,6 +42,34 @@ public class QuantityMeasurementApp {
         );
     }
 
+        public static <U extends IMeasurable>
+void demonstrateSubtraction(
+        Quantity<U> q1,
+        Quantity<U> q2,
+        U targetUnit
+) {
+
+    System.out.println(
+            q1 + " - " + q2 +
+                    " -> " +
+                    q1.subtract(
+                            q2,
+                            targetUnit
+                    )
+    );
+}
+        public static <U extends IMeasurable>
+void demonstrateDivision(
+        Quantity<U> q1,
+        Quantity<U> q2
+) {
+
+    System.out.println(
+            q1 + " / " + q2 +
+                    " -> " +
+                    q1.divide(q2)
+    );
+}
     public static void main(String[] args) {
 
         Quantity<LengthUnit> length1 =
@@ -119,5 +147,46 @@ public class QuantityMeasurementApp {
                 weight2,
                 WeightUnit.KILOGRAM
         );
+
+        System.out.println(
+        "\n===== SUBTRACTION ====="
+);
+
+demonstrateSubtraction(
+        length1,
+        length2,
+        LengthUnit.FEET
+);
+
+demonstrateSubtraction(
+        weight1,
+        weight2,
+        WeightUnit.KILOGRAM
+);
+
+demonstrateSubtraction(
+        volume1,
+        volume2,
+        VolumeUnit.LITRE
+);
+
+System.out.println(
+        "\n===== DIVISION ====="
+);
+
+demonstrateDivision(
+        length1,
+        length2
+);
+
+demonstrateDivision(
+        weight1,
+        weight2
+);
+
+demonstrateDivision(
+        volume1,
+        volume2
+);
     }
 }

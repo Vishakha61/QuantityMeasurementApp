@@ -252,4 +252,208 @@ void testVolumeVsLength() {
 
     assertNotEquals(volume, length);
 }
+
+        @Test
+void testLengthSubtraction() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    Quantity<LengthUnit> q2 =
+            new Quantity<>(5.0,
+                    LengthUnit.FEET);
+
+    assertEquals(
+            new Quantity<>(5.0,
+                    LengthUnit.FEET),
+            q1.subtract(q2)
+    );
+}
+        @Test
+void testLengthSubtractionCrossUnit() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    Quantity<LengthUnit> q2 =
+            new Quantity<>(6.0,
+                    LengthUnit.INCHES);
+
+    assertEquals(
+            new Quantity<>(9.5,
+                    LengthUnit.FEET),
+            q1.subtract(q2)
+    );
+}
+
+        @Test
+void testWeightSubtraction() {
+
+    Quantity<WeightUnit> q1 =
+            new Quantity<>(10.0,
+                    WeightUnit.KILOGRAM);
+
+    Quantity<WeightUnit> q2 =
+            new Quantity<>(5000.0,
+                    WeightUnit.GRAM);
+
+    assertEquals(
+            new Quantity<>(5.0,
+                    WeightUnit.KILOGRAM),
+            q1.subtract(q2)
+    );
+}
+
+        @Test
+void testVolumeSubtraction() {
+
+    Quantity<VolumeUnit> q1 =
+            new Quantity<>(5.0,
+                    VolumeUnit.LITRE);
+
+    Quantity<VolumeUnit> q2 =
+            new Quantity<>(500.0,
+                    VolumeUnit.MILLILITRE);
+
+    assertEquals(
+            new Quantity<>(4.5,
+                    VolumeUnit.LITRE),
+            q1.subtract(q2)
+    );
+}
+        @Test
+void testNegativeSubtraction() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(5.0,
+                    LengthUnit.FEET);
+
+    Quantity<LengthUnit> q2 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    assertEquals(
+            new Quantity<>(-5.0,
+                    LengthUnit.FEET),
+            q1.subtract(q2)
+    );
+}
+        @Test
+void testDivisionSameUnit() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    Quantity<LengthUnit> q2 =
+            new Quantity<>(2.0,
+                    LengthUnit.FEET);
+
+    assertEquals(
+            5.0,
+            q1.divide(q2),
+            0.0001
+    );
+}
+
+        @Test
+void testDivisionCrossUnit() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(24.0,
+                    LengthUnit.INCHES);
+
+    Quantity<LengthUnit> q2 =
+            new Quantity<>(2.0,
+                    LengthUnit.FEET);
+
+    assertEquals(
+            1.0,
+            q1.divide(q2),
+            0.0001
+    );
+}
+
+        @Test
+void testDivisionWeight() {
+
+    Quantity<WeightUnit> q1 =
+            new Quantity<>(10.0,
+                    WeightUnit.KILOGRAM);
+
+    Quantity<WeightUnit> q2 =
+            new Quantity<>(5.0,
+                    WeightUnit.KILOGRAM);
+
+    assertEquals(
+            2.0,
+            q1.divide(q2),
+            0.0001
+    );
+}
+
+@Test
+void testDivisionVolume() {
+
+    Quantity<VolumeUnit> q1 =
+            new Quantity<>(5.0,
+                    VolumeUnit.LITRE);
+
+    Quantity<VolumeUnit> q2 =
+            new Quantity<>(10.0,
+                    VolumeUnit.LITRE);
+
+    assertEquals(
+            0.5,
+            q1.divide(q2),
+            0.0001
+    );
+}
+
+@Test
+void testDivisionByZero() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    Quantity<LengthUnit> q2 =
+            new Quantity<>(0.0,
+                    LengthUnit.FEET);
+
+    assertThrows(
+            ArithmeticException.class,
+            () -> q1.divide(q2)
+    );
+}
+
+@Test
+void testNullSubtraction() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    assertThrows(
+            IllegalArgumentException.class,
+            () -> q1.subtract(null)
+    );
+}
+
+@Test
+void testNullDivision() {
+
+    Quantity<LengthUnit> q1 =
+            new Quantity<>(10.0,
+                    LengthUnit.FEET);
+
+    assertThrows(
+            IllegalArgumentException.class,
+            () -> q1.divide(null)
+    );
+}
+
+
 }
