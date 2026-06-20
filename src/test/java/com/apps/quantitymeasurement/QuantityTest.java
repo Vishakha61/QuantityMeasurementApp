@@ -454,6 +454,184 @@ void testNullDivision() {
             () -> q1.divide(null)
     );
 }
+@Test
+void testTemperatureEquality() {
 
+    Quantity<TemperatureUnit> q1 =
+            new Quantity<>(
+                    0.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<TemperatureUnit> q2 =
+            new Quantity<>(
+                    32.0,
+                    TemperatureUnit.FAHRENHEIT
+            );
+
+    assertEquals(q1, q2);
+}
+
+@Test
+void testKelvinEquality() {
+
+    Quantity<TemperatureUnit> q1 =
+            new Quantity<>(
+                    273.15,
+                    TemperatureUnit.KELVIN
+            );
+
+    Quantity<TemperatureUnit> q2 =
+            new Quantity<>(
+                    0.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    assertEquals(q1, q2);
+}
+
+@Test
+void testCelsiusToFahrenheit() {
+
+    Quantity<TemperatureUnit> q =
+            new Quantity<>(
+                    100.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<TemperatureUnit>
+            converted =
+            q.convertTo(
+                    TemperatureUnit
+                            .FAHRENHEIT
+            );
+
+    assertEquals(
+            new Quantity<>(
+                    212.0,
+                    TemperatureUnit
+                            .FAHRENHEIT
+            ),
+            converted
+    );
+}
+
+@Test
+void testCelsiusToKelvin() {
+
+    Quantity<TemperatureUnit> q =
+            new Quantity<>(
+                    0.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<TemperatureUnit>
+            converted =
+            q.convertTo(
+                    TemperatureUnit
+                            .KELVIN
+            );
+
+    assertEquals(
+            new Quantity<>(
+                    273.15,
+                    TemperatureUnit
+                            .KELVIN
+            ),
+            converted
+    );
+}
+
+@Test
+void testTemperatureAdditionUnsupported() {
+
+    Quantity<TemperatureUnit> q1 =
+            new Quantity<>(
+                    100.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<TemperatureUnit> q2 =
+            new Quantity<>(
+                    50.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    assertThrows(
+            UnsupportedOperationException.class,
+            () -> q1.add(q2)
+    );
+}
+
+@Test
+void testTemperatureSubtractUnsupported() {
+
+    Quantity<TemperatureUnit> q1 =
+            new Quantity<>(
+                    100.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<TemperatureUnit> q2 =
+            new Quantity<>(
+                    50.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    assertThrows(
+            UnsupportedOperationException.class,
+            () -> q1.subtract(q2)
+    );
+}
+
+@Test
+void testTemperatureSupportsArithmeticFalse() {
+
+    assertFalse(
+            TemperatureUnit.CELSIUS
+                    .supportsArithmetic()
+    );
+}
+@Test
+void testTemperatureVsLength() {
+
+    Quantity<TemperatureUnit> temperature =
+            new Quantity<>(
+                    100.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<LengthUnit> length =
+            new Quantity<>(
+                    100.0,
+                    LengthUnit.FEET
+            );
+
+    assertNotEquals(
+            temperature,
+            length
+    );
+}
+@Test
+void testTemperatureDivideUnsupported() {
+
+    Quantity<TemperatureUnit> q1 =
+            new Quantity<>(
+                    100.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    Quantity<TemperatureUnit> q2 =
+            new Quantity<>(
+                    50.0,
+                    TemperatureUnit.CELSIUS
+            );
+
+    assertThrows(
+            UnsupportedOperationException.class,
+            () -> q1.divide(q2)
+    );
+
+}
 
 }

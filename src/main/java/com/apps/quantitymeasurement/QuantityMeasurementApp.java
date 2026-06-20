@@ -188,5 +188,105 @@ demonstrateDivision(
         volume1,
         volume2
 );
+
+System.out.println(
+        "\n===== TEMPERATURE ====="
+);
+
+Quantity<TemperatureUnit> temp1 =
+        new Quantity<>(
+                0.0,
+                TemperatureUnit.CELSIUS
+        );
+
+Quantity<TemperatureUnit> temp2 =
+        new Quantity<>(
+                32.0,
+                TemperatureUnit.FAHRENHEIT
+        );
+
+Quantity<TemperatureUnit> temp3 =
+        new Quantity<>(
+                273.15,
+                TemperatureUnit.KELVIN
+        );
+
+demonstrateEquality(
+        temp1,
+        temp2
+);
+
+demonstrateEquality(
+        temp1,
+        temp3
+);
+
+demonstrateConversion(
+        temp1,
+        TemperatureUnit.FAHRENHEIT
+);
+
+demonstrateConversion(
+        temp2,
+        TemperatureUnit.CELSIUS
+);
+
+demonstrateConversion(
+        temp3,
+        TemperatureUnit.CELSIUS
+);
+
+try {
+
+    demonstrateAddition(
+            temp1,
+            temp2,
+            TemperatureUnit.CELSIUS
+    );
+
+} catch (
+        UnsupportedOperationException e
+) {
+
+    System.out.println(
+            "Temperature Addition Error: "
+                    + e.getMessage()
+    );
+}
+
+try {
+
+    demonstrateSubtraction(
+            temp1,
+            temp2,
+            TemperatureUnit.CELSIUS
+    );
+
+} catch (
+        UnsupportedOperationException e
+) {
+
+    System.out.println(
+            "Temperature Subtraction Error: "
+                    + e.getMessage()
+    );
+}
+
+try {
+
+    demonstrateDivision(
+            temp1,
+            temp2
+    );
+
+} catch (
+        UnsupportedOperationException e
+) {
+
+    System.out.println(
+            "Temperature Division Error: "
+                    + e.getMessage()
+    );
+}
     }
 }

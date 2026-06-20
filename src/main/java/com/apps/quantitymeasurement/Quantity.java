@@ -1,7 +1,6 @@
 package com.apps.quantitymeasurement;
 
 import java.util.Objects;
-import java.util.function.DoubleBinaryOperator;
 
 public class Quantity<U extends IMeasurable> {
 
@@ -9,37 +8,6 @@ public class Quantity<U extends IMeasurable> {
 
     private final double value;
     private final U unit;
-
-    private enum ArithmeticOperation {
-
-        ADD((a, b) -> a + b),
-
-        SUBTRACT((a, b) -> a - b),
-
-        DIVIDE((a, b) -> {
-            if (Math.abs(b) < EPSILON) {
-                throw new ArithmeticException(
-                        "Division by zero"
-                );
-            }
-            return a / b;
-        });
-
-        private final DoubleBinaryOperator operation;
-
-        ArithmeticOperation(
-                DoubleBinaryOperator operation
-        ) {
-            this.operation = operation;
-        }
-
-        public double compute(
-                double a,
-                double b
-        ) {
-            return operation.applyAsDouble(a, b);
-        }
-    }
 
     public Quantity(
             double value,
@@ -88,13 +56,30 @@ public class Quantity<U extends IMeasurable> {
             );
         }
 
-        double baseValue =
-                unit.convertToBaseUnit(value);
+        double convertedValue;
 
-        double convertedValue =
-                targetUnit.convertFromBaseUnit(
-                        baseValue
-                );
+        if (unit instanceof TemperatureUnit
+                && targetUnit instanceof TemperatureUnit) {
+
+            convertedValue =
+                    ((TemperatureUnit) unit)
+                            .convertTo(
+                                    value,
+                                    (TemperatureUnit) targetUnit
+                            );
+
+        } else {
+
+            double baseValue =
+                    unit.convertToBaseUnit(
+                            value
+                    );
+
+            convertedValue =
+                    targetUnit.convertFromBaseUnit(
+                            baseValue
+                    );
+        }
 
         convertedValue =
                 roundToTwoDecimals(
@@ -245,6 +230,14 @@ public class Quantity<U extends IMeasurable> {
             ArithmeticOperation operation
     ) {
 
+        this.unit.validateOperationSupport(
+                operation.name()
+        );
+
+        other.unit.validateOperationSupport(
+                operation.name()
+        );
+
         double thisBaseValue =
                 this.unit.convertToBaseUnit(
                         this.value
@@ -304,7 +297,9 @@ public class Quantity<U extends IMeasurable> {
     public int hashCode() {
 
         double baseValue =
-                unit.convertToBaseUnit(value);
+                unit.convertToBaseUnit(
+                        value
+                );
 
         long rounded =
                 Math.round(
