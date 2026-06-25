@@ -1,7 +1,10 @@
-package com.apps.quantitymeasurement;
+package com.quantitymeasurement.model;
+
+import com.quantitymeasurement.enums.ArithmeticOperation;
+import com.quantitymeasurement.enums.TemperatureUnit;
+import com.quantitymeasurement.interfaces.IMeasurable;
 
 import java.util.Objects;
-
 public class Quantity<U extends IMeasurable> {
 
     private static final double EPSILON = 1e-6;

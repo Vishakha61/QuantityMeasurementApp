@@ -1,6 +1,4 @@
-package com.apps.quantitymeasurement;
-
-
+package com.quantitymeasurement.interfaces;
 
 public interface IMeasurable {
 
@@ -28,7 +26,7 @@ public interface IMeasurable {
             String operation
     ) {
 
-        // Default implementation:
-        // Length, Weight, Volume support all operations.
+        // Length, Weight and Volume support
+        // all arithmetic operations.
     }
 }

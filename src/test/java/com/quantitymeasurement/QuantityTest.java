@@ -1,4 +1,12 @@
-package com.apps.quantitymeasurement;
+
+package com.quantitymeasurement;
+
+import com.quantitymeasurement.model.Quantity;
+
+import com.quantitymeasurement.enums.LengthUnit;
+import com.quantitymeasurement.enums.WeightUnit;
+import com.quantitymeasurement.enums.VolumeUnit;
+import com.quantitymeasurement.enums.TemperatureUnit;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,17 +1,16 @@
-package com.apps.quantitymeasurement;
+package com.quantitymeasurement.enums;
+import com.quantitymeasurement.interfaces.IMeasurable;
+public enum LengthUnit implements IMeasurable {
 
-public enum VolumeUnit implements IMeasurable {
-
-    LITRE(1.0, "Litre"),
-    MILLILITRE(0.001, "Millilitre"),
-    GALLON(3.78541, "Gallon");
+    FEET(1.0),
+    INCHES(1.0 / 12.0),
+    YARDS(3.0),
+    CENTIMETERS(1.0 / 30.48);
 
     private final double conversionFactor;
-    private final String unitName;
 
-    VolumeUnit(double conversionFactor, String unitName) {
+    LengthUnit(double conversionFactor) {
         this.conversionFactor = conversionFactor;
-        this.unitName = unitName;
     }
 
     @Override
@@ -31,6 +30,6 @@ public enum VolumeUnit implements IMeasurable {
 
     @Override
     public String getUnitName() {
-        return unitName;
+        return this.name();
     }
 }
