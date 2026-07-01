@@ -1,0 +1,24 @@
+2026-07-01 14:47:38.644261+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:38.683602+05:30 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:38.688612+05:30 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:38.694613+05:30 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:39.234889+05:30 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:39.240715+05:30 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:39.245772+05:30 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]
+2026-07-01 14:47:39.251306+05:30 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY_MEASUREMENT" not found (this database is empty); SQL statement:
+INSERT INTO quantity_measurement (measurement_type,operation_type,value1,unit1,value2,unit2,result) VALUES(?,?,?,?,?,?,?) [42104-224]

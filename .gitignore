@@ -41,3 +41,7 @@ Thumbs.db
 *.temp
 *.swp
 *~
+# H2 Database
+data/
+*.mv.db
+*.trace.db
