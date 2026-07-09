@@ -1,0 +1,6 @@
+2026-07-09 15:19:21.341067+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITY" not found (this database is empty); SQL statement:
+select * from quantity [42104-224]
+2026-07-09 15:19:33.069181+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "QUANTITYMEASUREMENT" not found (this database is empty); SQL statement:
+select * from quantitymeasurement [42104-224]
