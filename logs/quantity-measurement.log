@@ -1,23 +1,23 @@
-2026-07-09T14:54:11.060+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Starting QuantityMeasurementApplication using Java 17.0.12 with PID 14884 (C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T14:54:11.063+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T14:54:11.121+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-07-09T14:54:11.122+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-07-09T14:54:13.129+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-09T14:54:13.217+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
-2026-07-09T14:54:14.118+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-07-09T14:54:14.137+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-09T14:54:14.137+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
-2026-07-09T14:54:14.216+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-07-09T14:54:14.217+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3094 ms
-2026-07-09T14:54:14.671+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-07-09T14:54:14.762+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2026-07-09T14:54:14.821+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-07-09T14:54:15.253+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-09T14:54:15.287+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-09T14:54:15.519+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
-2026-07-09T14:54:15.522+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-09T14:54:15.556+05:30  WARN 14884 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-07-09T14:54:15.583+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-07-13T15:08:50.873+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Starting QuantityMeasurementApplication using Java 21.0.11 with PID 18624 (C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:08:50.882+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:08:50.948+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T15:08:50.949+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T15:08:53.443+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:08:53.550+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2026-07-13T15:08:54.650+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-13T15:08:54.673+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T15:08:54.674+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2026-07-13T15:08:54.757+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-13T15:08:54.758+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3808 ms
+2026-07-13T15:08:55.440+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:08:55.675+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-13T15:08:56.345+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:08:56.852+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:08:56.916+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T15:08:57.265+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
+2026-07-13T15:08:57.268+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T15:08:57.308+05:30  WARN 18624 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:08:57.330+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -25,61 +25,182 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-09T14:54:16.748+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-09T14:54:16.817+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T14:54:17.088+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
-2026-07-09T14:54:17.228+05:30  WARN 14884 --- [QuantityMeasurementApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-07-09T14:54:17.284+05:30  WARN 14884 --- [QuantityMeasurementApp] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-07-13T15:08:58.481+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:08:58.559+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:08:58.919+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
+2026-07-13T15:08:59.300+05:30  WARN 18624 --- [QuantityMeasurementApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T15:08:59.842+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-13T15:09:00.768+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
+2026-07-13T15:09:00.857+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-07-13T15:09:00.985+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T15:09:01.001+05:30  INFO 18624 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Started QuantityMeasurementApplication in 10.977 seconds (process running for 14.23)
+2026-07-13T15:09:01.682+05:30  INFO 18624 --- [QuantityMeasurementApp] [RMI TCP Connection(1)-192.168.56.43] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T15:09:01.685+05:30  INFO 18624 --- [QuantityMeasurementApp] [RMI TCP Connection(1)-192.168.56.43] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T15:09:01.690+05:30  INFO 18624 --- [QuantityMeasurementApp] [RMI TCP Connection(1)-192.168.56.43] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-07-13T15:09:31.921+05:30  INFO 18624 --- [QuantityMeasurementApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2026-07-13T15:09:31.934+05:30  INFO 18624 --- [QuantityMeasurementApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T15:09:31.944+05:30  INFO 18624 --- [QuantityMeasurementApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-07-13T15:09:31.956+05:30  INFO 18624 --- [QuantityMeasurementApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:09:31.968+05:30  WARN 18624 --- [QuantityMeasurementApp] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-07-13T15:09:31.969+05:30  INFO 18624 --- [QuantityMeasurementApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T15:09:31.972+05:30  INFO 18624 --- [QuantityMeasurementApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-13T15:20:18.535+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Starting QuantityMeasurementControllerTest using Java 17.0.12 with PID 20124 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:20:18.538+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:20:21.937+05:30  WARN 20124 --- [QuantityMeasurementApp] [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes\com\app\quantitymeasurement\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.app.quantitymeasurement.security.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-07-13T15:20:21.968+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
-Using generated security password: a5d05b5e-bef2-4aec-a5eb-c73effbce943
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-13T15:20:22.351+05:30 ERROR 20124 --- [QuantityMeasurementApp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+***************************
+APPLICATION FAILED TO START
+***************************
 
-2026-07-09T14:54:17.291+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-07-09T14:54:18.238+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
-2026-07-09T14:54:18.269+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2026-07-09T14:54:18.354+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-07-09T14:54:18.452+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-07-09T14:54:18.480+05:30  INFO 14884 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Started QuantityMeasurementApplication in 8.201 seconds (process running for 9.757)
-2026-07-09T14:54:19.048+05:30  INFO 14884 --- [QuantityMeasurementApp] [RMI TCP Connection(3)-192.168.56.28] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-07-09T14:54:19.050+05:30  INFO 14884 --- [QuantityMeasurementApp] [RMI TCP Connection(3)-192.168.56.28] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-07-09T14:54:19.053+05:30  INFO 14884 --- [QuantityMeasurementApp] [RMI TCP Connection(3)-192.168.56.28] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-07-09T14:55:40.513+05:30  INFO 14884 --- [QuantityMeasurementApp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
-2026-07-09T14:55:40.544+05:30  INFO 14884 --- [QuantityMeasurementApp] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-07-09T14:55:40.716+05:30  INFO 14884 --- [QuantityMeasurementApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-07-09T14:55:40.732+05:30  INFO 14884 --- [QuantityMeasurementApp] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T14:55:40.751+05:30  WARN 14884 --- [QuantityMeasurementApp] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2026-07-09T14:55:40.752+05:30  INFO 14884 --- [QuantityMeasurementApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-09T14:55:40.756+05:30  INFO 14884 --- [QuantityMeasurementApp] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-09T15:09:38.586+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Starting QuantityMeasurementControllerTest using Java 17.0.12 with PID 16584 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:09:38.594+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:09:42.783+05:30  WARN 16584 --- [QuantityMeasurementApp] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+Description:
 
-Using generated security password: c79e9d85-a4b7-4e40-9c5a-79c449fea2d7
+Parameter 0 of constructor in com.app.quantitymeasurement.security.JwtAuthenticationFilter required a bean of type 'com.app.quantitymeasurement.security.JwtUtil' that could not be found.
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2026-07-09T15:09:42.801+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-07-09T15:09:43.085+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-07-09T15:09:43.086+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-07-09T15:09:43.088+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2026-07-09T15:09:43.135+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Started QuantityMeasurementControllerTest in 5.543 seconds (process running for 7.515)
-2026-07-09T15:09:43.317+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.QuantityMeasurementAppTest]: QuantityMeasurementAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-07-09T15:09:43.433+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.QuantityMeasurementAppTest
-2026-07-09T15:09:43.443+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
-2026-07-09T15:09:43.582+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Starting QuantityMeasurementAppTest using Java 17.0.12 with PID 16584 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:09:43.583+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:09:45.496+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-09T15:09:45.612+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
-2026-07-09T15:09:46.319+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-07-09T15:09:46.469+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2026-07-09T15:09:46.569+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-07-09T15:09:46.771+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-09T15:09:46.835+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-09T15:09:47.176+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
-2026-07-09T15:09:47.181+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-09T15:09:47.228+05:30  WARN 16584 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-07-09T15:09:47.267+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+Action:
+
+Consider defining a bean of type 'com.app.quantitymeasurement.security.JwtUtil' in your configuration.
+
+2026-07-13T15:20:22.365+05:30  WARN 20124 --- [QuantityMeasurementApp] [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.bean.override.BeanOverrideTestExecutionListener] to prepare test instance [com.app.quantitymeasurement.controller.QuantityMeasurementControllerTest@38c761e9]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5e67a490 testClass = com.app.quantitymeasurement.controller.QuantityMeasurementControllerTest, locations = [], classes = [com.app.quantitymeasurement.QuantityMeasurementApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true"], contextCustomizers = [[ImportsContextCustomizer@2dac2e1b key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientWebSecurityAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@41294f8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@573906eb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@8e50104, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@74a6f9c1, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@63611043, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@9d776926, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@d2cf8264, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@7a362b6b, org.springframework.test.context.bean.override.BeanOverrideContextCustomizer@406caa71, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@d09dd68e], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.bean.override.BeanOverrideTestExecutionListener.injectFields(BeanOverrideTestExecutionListener.java:99) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.bean.override.BeanOverrideTestExecutionListener.prepareTestInstance(BeanOverrideTestExecutionListener.java:70) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:194) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.3.jar:3.5.3]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes\com\app\quantitymeasurement\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.app.quantitymeasurement.security.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1462) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.2.7.jar:6.2.7]
+	... 79 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.app.quantitymeasurement.security.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2280) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1703) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 105 common frames omitted
+
+2026-07-13T15:20:23.733+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.QuantityMeasurementAppTest]: QuantityMeasurementAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-07-13T15:20:23.817+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.QuantityMeasurementAppTest
+2026-07-13T15:20:23.870+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-07-13T15:20:24.464+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Starting QuantityMeasurementAppTest using Java 17.0.12 with PID 20124 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:20:24.604+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:20:26.824+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:20:26.972+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interface.
+2026-07-13T15:20:28.152+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:20:28.303+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-13T15:20:28.403+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:20:28.828+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:20:28.898+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T15:20:29.274+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
+2026-07-13T15:20:29.278+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T15:20:29.340+05:30  WARN 20124 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:20:29.388+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -87,68 +208,199 @@ This generated password is for development use only. Your security configuration
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-09T15:09:48.274+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-09T15:09:48.354+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:09:48.789+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
-2026-07-09T15:09:49.140+05:30  WARN 16584 --- [QuantityMeasurementApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-07-09T15:09:49.185+05:30  WARN 16584 --- [QuantityMeasurementApp] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 1bfc04f8-752a-4ed7-99ad-9fe63502355e
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-07-09T15:09:49.188+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-07-09T15:09:50.334+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
-2026-07-09T15:09:50.375+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2026-07-09T15:09:50.569+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Started QuantityMeasurementAppTest in 7.126 seconds (process running for 14.949)
-2026-07-09T15:09:50.733+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest]: QuantityMeasurementRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-07-09T15:09:50.813+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest
-2026-07-09T15:09:50.819+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
-2026-07-09T15:09:50.875+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Starting QuantityMeasurementRepositoryTest using Java 17.0.12 with PID 16584 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:09:50.875+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:09:51.273+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-09T15:09:51.345+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
-2026-07-09T15:09:51.405+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2026-07-09T15:09:51.463+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:3a632826-fec7-4fbb-abc6-4ce36699c9c5;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2026-07-09T15:09:51.622+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-07-09T15:09:51.635+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-07-09T15:09:51.703+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-09T15:09:51.711+05:30  WARN 16584 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-07-09T15:09:51.713+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@48f08e9']
+2026-07-13T15:20:30.670+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:20:30.837+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:20:31.582+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
+2026-07-13T15:20:32.257+05:30  WARN 20124 --- [QuantityMeasurementApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T15:20:33.139+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-13T15:20:34.656+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
+2026-07-13T15:20:34.868+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Started QuantityMeasurementAppTest in 11.003 seconds (process running for 19.613)
+2026-07-13T15:20:35.096+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest]: QuantityMeasurementRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-07-13T15:20:35.147+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest
+2026-07-13T15:20:35.152+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-07-13T15:20:35.160+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] m.p.springdotenv.DotenvPropertySource    : Initialized Dotenv with DotenvConfig{directory=null, filename=null, ignoreIfMalformed=false, ignoreIfMissing=true, systemProperties=false, prefix=null}
+2026-07-13T15:20:35.245+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Starting QuantityMeasurementRepositoryTest using Java 17.0.12 with PID 20124 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:20:35.246+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:20:35.529+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:20:35.565+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2026-07-13T15:20:35.583+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-07-13T15:20:35.616+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:8253dff3-eaf1-4125-9987-54ef1fb49aab;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-07-13T15:20:35.662+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:20:35.667+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:20:35.700+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:20:35.704+05:30  WARN 20124 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:20:35.708+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@201ac0ef']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-09T15:09:51.853+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-09T15:09:51.862+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:09:51.907+05:30  INFO 16584 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Started QuantityMeasurementRepositoryTest in 1.089 seconds (process running for 16.288)
-2026-07-09T15:09:52.349+05:30  INFO 16584 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:09:52.353+05:30  INFO 16584 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-09T15:09:52.361+05:30  INFO 16584 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-09T15:09:52.363+05:30  INFO 16584 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:16:03.338+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Starting QuantityMeasurementApplication using Java 17.0.12 with PID 24220 (C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:16:03.342+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:16:03.399+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-07-09T15:16:03.399+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-07-09T15:16:05.166+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-09T15:16:05.258+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
-2026-07-09T15:16:06.065+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-07-09T15:16:06.079+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-09T15:16:06.079+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
-2026-07-09T15:16:06.136+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-07-09T15:16:06.137+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2738 ms
-2026-07-09T15:16:06.474+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-07-09T15:16:06.546+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2026-07-09T15:16:06.581+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-07-09T15:16:06.892+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-09T15:16:06.935+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-09T15:16:07.142+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
-2026-07-09T15:16:07.145+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-09T15:16:07.177+05:30  WARN 24220 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-07-09T15:16:07.200+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-07-13T15:20:35.804+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:20:35.813+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:20:35.881+05:30  INFO 20124 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Started QuantityMeasurementRepositoryTest in 0.73 seconds (process running for 20.627)
+2026-07-13T15:20:36.176+05:30  INFO 20124 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:20:36.193+05:30  INFO 20124 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T15:20:36.228+05:30  INFO 20124 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-13T15:20:36.230+05:30  INFO 20124 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:24:22.294+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Starting QuantityMeasurementControllerTest using Java 17.0.12 with PID 17460 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:24:22.307+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:24:27.123+05:30  WARN 17460 --- [QuantityMeasurementApp] [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes\com\app\quantitymeasurement\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.app.quantitymeasurement.security.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-07-13T15:24:27.155+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-13T15:24:27.239+05:30 ERROR 17460 --- [QuantityMeasurementApp] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.app.quantitymeasurement.security.JwtAuthenticationFilter required a bean of type 'com.app.quantitymeasurement.security.JwtUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.app.quantitymeasurement.security.JwtUtil' in your configuration.
+
+2026-07-13T15:24:27.249+05:30  WARN 17460 --- [QuantityMeasurementApp] [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.bean.override.BeanOverrideTestExecutionListener] to prepare test instance [com.app.quantitymeasurement.controller.QuantityMeasurementControllerTest@38c761e9]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5e67a490 testClass = com.app.quantitymeasurement.controller.QuantityMeasurementControllerTest, locations = [], classes = [com.app.quantitymeasurement.QuantityMeasurementApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true"], contextCustomizers = [[ImportsContextCustomizer@2dac2e1b key = [org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientWebSecurityAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.OAuth2ClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@41294f8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@573906eb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@8e50104, org.springframework.boot.test.autoconfigure.OnFailureConditionReportContextCustomizerFactory$OnFailureConditionReportContextCustomizer@74a6f9c1, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@63611043, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@9d776926, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@d2cf8264, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@7a362b6b, org.springframework.test.context.bean.override.BeanOverrideContextCustomizer@406caa71, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0, org.springframework.boot.test.context.SpringBootTestAnnotation@d09dd68e], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.bean.override.BeanOverrideTestExecutionListener.injectFields(BeanOverrideTestExecutionListener.java:99) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.bean.override.BeanOverrideTestExecutionListener.prepareTestInstance(BeanOverrideTestExecutionListener.java:70) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:159) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:388) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:382) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:382) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:293) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:292) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:281) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:280) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:27) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:112) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:111) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.12.2.jar:5.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:128) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:128) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.12.2.jar:1.12.2]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:194) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124) ~[surefire-junit-platform-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.5.3.jar:3.5.3]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.5.3.jar:3.5.3]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes\com\app\quantitymeasurement\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.app.quantitymeasurement.security.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:144) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.2.7.jar:6.2.7]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1462) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:563) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:144) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:110) ~[spring-boot-test-3.5.0.jar:3.5.0]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.2.7.jar:6.2.7]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.2.7.jar:6.2.7]
+	... 79 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.app.quantitymeasurement.security.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2280) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1703) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 105 common frames omitted
+
+2026-07-13T15:24:27.678+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.QuantityMeasurementAppTest]: QuantityMeasurementAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-07-13T15:24:27.718+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.QuantityMeasurementAppTest
+2026-07-13T15:24:27.781+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-07-13T15:24:27.970+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Starting QuantityMeasurementAppTest using Java 17.0.12 with PID 17460 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:24:27.971+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:24:32.329+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:24:32.601+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215 ms. Found 1 JPA repository interface.
+2026-07-13T15:24:33.755+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:24:33.942+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-13T15:24:34.041+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:24:34.464+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:24:34.589+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T15:24:35.050+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
+2026-07-13T15:24:35.055+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T15:24:35.108+05:30  WARN 17460 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:24:35.160+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -156,63 +408,55 @@ This generated password is for development use only. Your security configuration
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-09T15:16:08.106+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-09T15:16:08.170+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:16:08.476+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
-2026-07-09T15:16:08.581+05:30  WARN 24220 --- [QuantityMeasurementApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-07-09T15:16:08.617+05:30  WARN 24220 --- [QuantityMeasurementApp] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: fcfce173-80ea-4045-b834-bb105c55d771
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-07-09T15:16:08.624+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-07-09T15:16:09.442+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
-2026-07-09T15:16:09.469+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2026-07-09T15:16:09.533+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-07-09T15:16:09.600+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-07-09T15:16:09.615+05:30  INFO 24220 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Started QuantityMeasurementApplication in 7.243 seconds (process running for 8.463)
-2026-07-09T15:16:10.046+05:30  INFO 24220 --- [QuantityMeasurementApp] [RMI TCP Connection(3)-192.168.56.28] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-07-09T15:16:10.047+05:30  INFO 24220 --- [QuantityMeasurementApp] [RMI TCP Connection(3)-192.168.56.28] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-07-09T15:16:10.052+05:30  INFO 24220 --- [QuantityMeasurementApp] [RMI TCP Connection(3)-192.168.56.28] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-07-09T15:16:34.091+05:30  WARN 24220 --- [QuantityMeasurementApp] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource quantity.]
-2026-07-09T15:16:34.226+05:30  WARN 24220 --- [QuantityMeasurementApp] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
-2026-07-09T15:17:11.214+05:30  WARN 24220 --- [QuantityMeasurementApp] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
-2026-07-09T15:23:57.143+05:30  INFO 24220 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-07-09T15:23:57.339+05:30  INFO 24220 --- [QuantityMeasurementApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-07-09T15:23:57.375+05:30  INFO 24220 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:23:57.452+05:30  WARN 24220 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
-2026-07-09T15:23:57.453+05:30  INFO 24220 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-09T15:23:57.459+05:30  INFO 24220 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-09T15:30:35.587+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Starting QuantityMeasurementControllerTest using Java 17.0.12 with PID 9968 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:30:35.591+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:30:41.592+05:30  WARN 9968 --- [QuantityMeasurementApp] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 2b3b9d54-4c34-4f8c-8332-7598c89e3bfb
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-07-09T15:30:41.608+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-07-09T15:30:41.971+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-07-09T15:30:41.972+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-07-09T15:30:41.975+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
-2026-07-09T15:30:42.063+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Started QuantityMeasurementControllerTest in 7.692 seconds (process running for 10.667)
-2026-07-09T15:30:42.501+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.QuantityMeasurementAppTest]: QuantityMeasurementAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-07-09T15:30:42.537+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.QuantityMeasurementAppTest
-2026-07-09T15:30:42.563+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
-2026-07-09T15:30:42.698+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Starting QuantityMeasurementAppTest using Java 17.0.12 with PID 9968 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:30:42.699+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:30:45.229+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-09T15:30:45.381+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interface.
-2026-07-09T15:30:46.658+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-07-09T15:30:46.857+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2026-07-09T15:30:46.936+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-07-09T15:30:47.172+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-09T15:30:47.231+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-09T15:30:47.629+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
-2026-07-09T15:30:47.632+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-09T15:30:47.694+05:30  WARN 9968 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-07-09T15:30:47.750+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-07-13T15:24:38.674+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:24:38.853+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:24:39.946+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
+2026-07-13T15:24:40.746+05:30  WARN 17460 --- [QuantityMeasurementApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T15:24:41.719+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-13T15:24:43.837+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
+2026-07-13T15:24:44.074+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Started QuantityMeasurementAppTest in 16.293 seconds (process running for 25.913)
+2026-07-13T15:24:44.294+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest]: QuantityMeasurementRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-07-13T15:24:44.406+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest
+2026-07-13T15:24:44.426+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-07-13T15:24:44.450+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] m.p.springdotenv.DotenvPropertySource    : Initialized Dotenv with DotenvConfig{directory=null, filename=null, ignoreIfMalformed=false, ignoreIfMissing=true, systemProperties=false, prefix=null}
+2026-07-13T15:24:44.584+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Starting QuantityMeasurementRepositoryTest using Java 17.0.12 with PID 17460 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:24:44.585+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:24:44.817+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:24:44.847+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-07-13T15:24:44.864+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-07-13T15:24:44.892+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:3b920e38-c47f-4adc-8199-339dcb3e9c93;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-07-13T15:24:44.948+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:24:44.952+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:24:44.974+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:24:44.977+05:30  WARN 17460 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:24:44.980+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@7cc9970a']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-13T15:24:45.087+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:24:45.115+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:24:45.260+05:30  INFO 17460 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Started QuantityMeasurementRepositoryTest in 0.835 seconds (process running for 27.1)
+2026-07-13T15:24:45.765+05:30  INFO 17460 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:24:45.773+05:30  INFO 17460 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T15:24:45.781+05:30  INFO 17460 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-13T15:24:45.782+05:30  INFO 17460 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:12.318+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Starting QuantityMeasurementControllerTest using Java 17.0.12 with PID 19576 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:35:12.329+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:35:16.096+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:35:16.295+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182 ms. Found 1 JPA repository interface.
+2026-07-13T15:35:19.822+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:35:20.048+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-13T15:35:20.149+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:35:20.495+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:35:20.572+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T15:35:21.032+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
+2026-07-13T15:35:21.039+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T15:35:21.222+05:30  WARN 19576 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:35:21.342+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -220,45 +464,118 @@ This generated password is for development use only. Your security configuration
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-09T15:30:49.327+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-09T15:30:49.493+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:30:50.022+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
-2026-07-09T15:30:50.214+05:30  WARN 9968 --- [QuantityMeasurementApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-07-09T15:30:50.267+05:30  WARN 9968 --- [QuantityMeasurementApp] [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: 14402453-9cc6-43fa-8146-4d0212b196a3
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-07-09T15:30:50.270+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2026-07-09T15:30:51.808+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
-2026-07-09T15:30:51.888+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2026-07-09T15:30:52.112+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Started QuantityMeasurementAppTest in 9.55 seconds (process running for 20.716)
-2026-07-09T15:30:52.323+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest]: QuantityMeasurementRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2026-07-09T15:30:52.397+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest
-2026-07-09T15:30:52.436+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
-2026-07-09T15:30:52.563+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Starting QuantityMeasurementRepositoryTest using Java 17.0.12 with PID 9968 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
-2026-07-09T15:30:52.564+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : No active profile set, falling back to 1 default profile: "default"
-2026-07-09T15:30:52.766+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-09T15:30:52.792+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
-2026-07-09T15:30:52.807+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
-2026-07-09T15:30:52.840+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:3cc17dce-e020-4231-b826-9f40ba9e595c;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
-2026-07-09T15:30:52.892+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-07-09T15:30:52.897+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-07-09T15:30:52.923+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-09T15:30:52.944+05:30  WARN 9968 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-07-09T15:30:52.946+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@4758f533']
+2026-07-13T15:35:22.874+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:35:23.008+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:23.764+05:30  WARN 19576 --- [QuantityMeasurementApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T15:35:24.675+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-13T15:35:26.715+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
+2026-07-13T15:35:26.961+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .a.q.c.QuantityMeasurementControllerTest : Started QuantityMeasurementControllerTest in 15.443 seconds (process running for 17.268)
+2026-07-13T15:35:27.220+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.QuantityMeasurementAppTest]: QuantityMeasurementAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-07-13T15:35:27.255+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.QuantityMeasurementAppTest
+2026-07-13T15:35:27.401+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-07-13T15:35:27.430+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] m.p.springdotenv.DotenvPropertySource    : Initialized Dotenv with DotenvConfig{directory=null, filename=null, ignoreIfMalformed=false, ignoreIfMissing=true, systemProperties=false, prefix=null}
+2026-07-13T15:35:27.606+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Starting QuantityMeasurementAppTest using Java 17.0.12 with PID 19576 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:35:27.607+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:35:28.539+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:35:28.567+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2026-07-13T15:35:28.907+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:35:28.915+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:35:28.990+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:35:28.994+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-07-13T15:35:28.997+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:quantitydb user=SA
+2026-07-13T15:35:28.998+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-07-13T15:35:28.999+05:30  WARN 19576 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:35:29.000+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-09T15:30:53.073+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-09T15:30:53.080+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:30:53.262+05:30  INFO 9968 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Started QuantityMeasurementRepositoryTest in 0.829 seconds (process running for 21.866)
-2026-07-09T15:30:53.976+05:30  INFO 9968 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-09T15:30:53.980+05:30  INFO 9968 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-09T15:30:54.017+05:30  INFO 9968 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-09T15:30:54.019+05:30  INFO 9968 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:29.072+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:35:29.078+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:29.266+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
+2026-07-13T15:35:29.724+05:30  WARN 19576 --- [QuantityMeasurementApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T15:35:30.222+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-13T15:35:30.772+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
+2026-07-13T15:35:30.918+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] c.a.q.QuantityMeasurementAppTest         : Started QuantityMeasurementAppTest in 3.625 seconds (process running for 21.225)
+2026-07-13T15:35:31.079+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest]: QuantityMeasurementRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-07-13T15:35:31.219+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.app.quantitymeasurement.QuantityMeasurementApplication for test class com.app.quantitymeasurement.repository.QuantityMeasurementRepositoryTest
+2026-07-13T15:35:31.231+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+2026-07-13T15:35:31.235+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] m.p.springdotenv.DotenvPropertySource    : Initialized Dotenv with DotenvConfig{directory=null, filename=null, ignoreIfMalformed=false, ignoreIfMissing=true, systemProperties=false, prefix=null}
+2026-07-13T15:35:31.285+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Starting QuantityMeasurementRepositoryTest using Java 17.0.12 with PID 19576 (started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:35:31.285+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:35:31.489+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:35:31.533+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-07-13T15:35:31.556+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] beddedDataSourceBeanFactoryPostProcessor : Replacing 'dataSource' DataSource bean with embedded version
+2026-07-13T15:35:31.600+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:5062c143-415f-4257-8ba2-58d51e178c4e;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-07-13T15:35:31.697+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:35:31.703+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:35:32.030+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:35:32.047+05:30  WARN 19576 --- [QuantityMeasurementApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:35:32.050+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@66f4fb48']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-13T15:35:32.124+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:35:32.128+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:32.203+05:30  INFO 19576 --- [QuantityMeasurementApp] [main] .a.q.r.QuantityMeasurementRepositoryTest : Started QuantityMeasurementRepositoryTest in 0.972 seconds (process running for 22.511)
+2026-07-13T15:35:32.483+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:32.489+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T15:35:32.494+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-13T15:35:32.502+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:35:32.505+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-07-13T15:35:32.509+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-07-13T15:35:32.511+05:30  INFO 19576 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:39:06.495+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Starting QuantityMeasurementApplication using Java 17.0.12 with PID 23752 (C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement\target\classes started by visha in C:\Users\visha\OneDrive - CHITKARA UNIVERSITY\quantitymeasurement)
+2026-07-13T15:39:06.499+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-07-13T15:39:06.561+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-13T15:39:06.562+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-13T15:39:09.002+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-13T15:39:09.110+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interface.
+2026-07-13T15:39:10.122+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-13T15:39:10.143+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-13T15:39:10.144+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2026-07-13T15:39:10.219+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-13T15:39:10.220+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3655 ms
+2026-07-13T15:39:10.738+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-13T15:39:10.837+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2026-07-13T15:39:10.896+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-07-13T15:39:11.355+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-13T15:39:11.402+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-13T15:39:11.711+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:quantitydb user=SA
+2026-07-13T15:39:11.714+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-13T15:39:11.747+05:30  WARN 23752 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-13T15:39:11.775+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-13T15:39:12.872+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-13T15:39:12.952+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:39:13.277+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] c.a.q.s.QuantityMeasurementServiceImpl   : QuantityMeasurementService initialized.
+2026-07-13T15:39:13.550+05:30  WARN 23752 --- [QuantityMeasurementApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-13T15:39:14.027+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-13T15:39:14.730+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:quantitydb'
+2026-07-13T15:39:14.779+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-07-13T15:39:14.864+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-07-13T15:39:14.884+05:30  INFO 23752 --- [QuantityMeasurementApp] [restartedMain] c.a.q.QuantityMeasurementApplication     : Started QuantityMeasurementApplication in 9.125 seconds (process running for 10.968)
+2026-07-13T15:39:15.264+05:30  INFO 23752 --- [QuantityMeasurementApp] [RMI TCP Connection(1)-192.168.56.43] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-13T15:39:15.266+05:30  INFO 23752 --- [QuantityMeasurementApp] [RMI TCP Connection(1)-192.168.56.43] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-13T15:39:15.269+05:30  INFO 23752 --- [QuantityMeasurementApp] [RMI TCP Connection(1)-192.168.56.43] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-13T15:39:30.875+05:30  INFO 23752 --- [QuantityMeasurementApp] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 408 ms
+2026-07-13T15:44:36.642+05:30  WARN 23752 --- [QuantityMeasurementApp] [http-nio-8080-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [124] milliseconds.
+2026-07-13T15:52:39.423+05:30  INFO 23752 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-13T15:52:39.653+05:30  INFO 23752 --- [QuantityMeasurementApp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-07-13T15:52:39.763+05:30  INFO 23752 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-13T15:52:39.889+05:30  WARN 23752 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-07-13T15:52:39.891+05:30  INFO 23752 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-13T15:52:39.904+05:30  INFO 23752 --- [QuantityMeasurementApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
