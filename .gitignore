@@ -9,3 +9,4 @@ apache-maven-3.9.15-bin/
 .env
 log/
 *.gz
+src/main/resources/application-local.properties

@@ -1,118 +1,58 @@
 package com.app.quantitymeasurement.model;
 
+import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class QuantityDTO {
 
-public class QuantityDTO
-        implements Serializable {
+    @NotNull(message = "Value cannot be null")
+    private Double value;
 
-    private static final long serialVersionUID = 1L;
-
-    @Positive(message = "Value must be greater than zero")
-    private double value;
-
-    @NotBlank(message = "Unit cannot be empty")
+    @NotBlank(message = "Unit cannot be blank")
     private String unit;
 
-    @NotBlank(message = "Measurement type cannot be empty")
+    @NotBlank(message = "Measurement type cannot be blank")
     private String measurementType;
 
-    private boolean hasError;
+    @AssertTrue(message = "Invalid unit for measurement type")
+    public boolean isValidUnit() {
 
-    private String errorMessage;
-
-    public QuantityDTO() {
-    }
-
-    public QuantityDTO(
-            double value,
-            String unit,
-            String measurementType
-    ) {
-
-        this.value = value;
-        this.unit = unit;
-        this.measurementType = measurementType;
-    }
-
-    public QuantityDTO(
-            String errorMessage
-    ) {
-
-        this.hasError = true;
-        this.errorMessage = errorMessage;
-    }
-
-    public double getValue() {
-
-        return value;
-    }
-
-    public void setValue(
-            double value
-    ) {
-
-        this.value = value;
-    }
-
-    public String getUnit() {
-
-        return unit;
-    }
-
-    public void setUnit(
-            String unit
-    ) {
-
-        this.unit = unit;
-    }
-
-    public String getMeasurementType() {
-
-        return measurementType;
-    }
-
-    public void setMeasurementType(
-            String measurementType
-    ) {
-
-        this.measurementType = measurementType;
-    }
-
-    public boolean hasError() {
-
-        return hasError;
-    }
-
-    public void setHasError(
-            boolean hasError
-    ) {
-
-        this.hasError = hasError;
-    }
-
-    public String getErrorMessage() {
-
-        return errorMessage;
-    }
-
-    public void setErrorMessage(
-            String errorMessage
-    ) {
-
-        this.errorMessage = errorMessage;
-    }
-
-    @Override
-    public String toString() {
-
-        if (hasError) {
-
-            return "Error : " + errorMessage;
+        if (measurementType == null || unit == null) {
+            return false;
         }
 
-        return value + " " + unit;
+        switch (measurementType.toUpperCase()) {
+
+            case "LENGTH":
+                return unit.equalsIgnoreCase("FEET")
+                        || unit.equalsIgnoreCase("INCHES")
+                        || unit.equalsIgnoreCase("YARDS")
+                        || unit.equalsIgnoreCase("CENTIMETERS");
+
+            case "WEIGHT":
+                return unit.equalsIgnoreCase("GRAM")
+                        || unit.equalsIgnoreCase("KILOGRAM")
+                        || unit.equalsIgnoreCase("POUND");
+
+            case "VOLUME":
+                return unit.equalsIgnoreCase("LITRE")
+                        || unit.equalsIgnoreCase("MILLILITRE")
+                        || unit.equalsIgnoreCase("GALLON");
+
+            case "TEMPERATURE":
+                return unit.equalsIgnoreCase("CELSIUS")
+                        || unit.equalsIgnoreCase("FAHRENHEIT")
+                        || unit.equalsIgnoreCase("KELVIN");
+
+            default:
+                return false;
+        }
     }
 }

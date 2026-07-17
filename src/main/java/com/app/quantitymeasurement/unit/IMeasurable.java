@@ -3,24 +3,41 @@ package com.app.quantitymeasurement.unit;
 
 public interface IMeasurable {
 
-    String getUnitName();
+    SupportsArithmetic supportsArithmetic =
+            () -> true;
 
     double getConversionFactor();
 
-    double convertToBaseUnit(double value);
+    double convertToBaseUnit(
+            double value
+    );
 
-    double convertFromBaseUnit(double baseValue);
+    double convertFromBaseUnit(
+            double baseValue
+    );
 
-    SupportArithmetic ARITHMETIC_SUPPORT =
-            () -> true;
+    String getUnitName();
 
-    default boolean supportArithmetic() {
-        return ARITHMETIC_SUPPORT.isSupported();
+    // ADD FOR UC15
+
+    String getMeasurementType();
+
+    IMeasurable getUnitInstance(
+            String unitName
+    );
+
+    default boolean supportsArithmetic() {
+
+        return supportsArithmetic
+                .isSupported();
     }
 
     default void validateOperationSupport(
             String operation
     ) {
-        // default: all operations supported
+
+        // Default:
+        // all units support arithmetic
+
     }
 }

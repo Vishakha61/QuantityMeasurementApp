@@ -4,6 +4,7 @@ import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -14,13 +15,11 @@ import java.io.IOException;
 import java.util.List;
 
 @Component
-public class JwtAuthenticationFilter extends OncePerRequestFilter {
+@RequiredArgsConstructor
+public class JwtAuthenticationFilter
+        extends OncePerRequestFilter {
 
     private final JwtUtil jwtUtil;
-
-    public JwtAuthenticationFilter(JwtUtil jwtUtil) {
-        this.jwtUtil = jwtUtil;
-    }
 
     @Override
     protected void doFilterInternal(
@@ -29,21 +28,29 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             FilterChain filterChain
     ) throws ServletException, IOException {
 
-        String header = request.getHeader("Authorization");
+        String header =
+                request.getHeader("Authorization");
 
-        if (header != null && header.startsWith("Bearer ")) {
+        if (header != null &&
+                header.startsWith("Bearer ")) {
 
-            String token = header.substring(7);
+            String token =
+                    header.substring(7);
 
             if (jwtUtil.validateToken(token)) {
 
-                String email = jwtUtil.extractEmail(token);
+                String email =
+                        jwtUtil.extractUsername(token);
 
                 UsernamePasswordAuthenticationToken authentication =
                         new UsernamePasswordAuthenticationToken(
                                 email,
                                 null,
-                                List.of(new SimpleGrantedAuthority("ROLE_USER"))
+                                List.of(
+                                        new SimpleGrantedAuthority(
+                                                "ROLE_USER"
+                                        )
+                                )
                         );
 
                 SecurityContextHolder
@@ -52,19 +59,9 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             }
         }
 
-        filterChain.doFilter(request, response);
-    }
-
-    @Override
-    protected boolean shouldNotFilter(HttpServletRequest request) {
-
-        String path = request.getServletPath();
-
-        return path.startsWith("/oauth2/")
-                || path.startsWith("/login/")
-                || path.startsWith("/swagger-ui/")
-                || path.startsWith("/v3/api-docs/")
-                || path.startsWith("/h2-console/")
-                || path.startsWith("/api/auth/");
+        filterChain.doFilter(
+                request,
+                response
+        );
     }
 }

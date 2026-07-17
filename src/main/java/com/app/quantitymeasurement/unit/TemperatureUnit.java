@@ -1,18 +1,72 @@
 package com.app.quantitymeasurement.unit;
 
+import java.util.function.Function;
+
 public enum TemperatureUnit
         implements IMeasurable {
 
-    CELSIUS,
-    FAHRENHEIT;
+    CELSIUS(
+            "CELSIUS",
+            celsius -> celsius,
+            celsius -> celsius
+    ),
 
-    @Override
-    public String getUnitName() {
-        return name();
+    FAHRENHEIT(
+            "FAHRENHEIT",
+
+            fahrenheit ->
+                    (fahrenheit - 32)
+                            * 5 / 9,
+
+            celsius ->
+                    (celsius * 9 / 5)
+                            + 32
+    ),
+
+    KELVIN(
+            "KELVIN",
+
+            kelvin ->
+                    kelvin - 273.15,
+
+            celsius ->
+                    celsius + 273.15
+    );
+
+    private final String unitName;
+
+    private final Function<Double, Double>
+            toCelsius;
+
+    private final Function<Double, Double>
+            fromCelsius;
+
+    private final SupportsArithmetic
+            supportsArithmetic =
+            () -> false;
+
+    TemperatureUnit(
+            String unitName,
+
+            Function<Double, Double>
+                    toCelsius,
+
+            Function<Double, Double>
+                    fromCelsius
+    ) {
+
+        this.unitName = unitName;
+
+        this.toCelsius =
+                toCelsius;
+
+        this.fromCelsius =
+                fromCelsius;
     }
 
     @Override
     public double getConversionFactor() {
+
         return 1.0;
     }
 
@@ -21,11 +75,9 @@ public enum TemperatureUnit
             double value
     ) {
 
-        if (this == CELSIUS) {
-            return value;
-        }
-
-        return (value - 32) * 5 / 9;
+        return toCelsius.apply(
+                value
+        );
     }
 
     @Override
@@ -33,16 +85,40 @@ public enum TemperatureUnit
             double baseValue
     ) {
 
-        if (this == CELSIUS) {
-            return baseValue;
-        }
-
-        return (baseValue * 9 / 5) + 32;
+        return fromCelsius.apply(
+                baseValue
+        );
     }
 
     @Override
-    public boolean supportArithmetic() {
-        return false;
+    public String getUnitName() {
+
+        return unitName;
+    }
+
+    // ---------- UC15 additions ----------
+
+    @Override
+    public String getMeasurementType() {
+
+        return "TEMPERATURE";
+    }
+
+    @Override
+    public IMeasurable getUnitInstance(
+            String unitName
+    ) {
+
+        return TemperatureUnit.valueOf(
+                unitName
+        );
+    }
+
+    @Override
+    public boolean supportsArithmetic() {
+
+        return supportsArithmetic
+                .isSupported();
     }
 
     @Override
@@ -51,10 +127,13 @@ public enum TemperatureUnit
     ) {
 
         throw new UnsupportedOperationException(
-                getUnitName()
-                        + " does not support "
+
+                "Temperature does not support "
+
                         + operation
-                        + " operations"
+
+                        + " operation"
+
         );
     }
 }

@@ -1,6 +1,5 @@
 package com.app.quantitymeasurement.repository;
 
-
 import com.app.quantitymeasurement.entity.QuantityMeasurementEntity;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,17 +25,17 @@ class QuantityMeasurementRepositoryTest {
         QuantityMeasurementEntity entity =
                 new QuantityMeasurementEntity();
 
-        entity.setFirstValue(1.0);
-        entity.setFirstUnit("FEET");
-        entity.setFirstMeasurementType("LENGTH");
+        entity.setThisValue(1.0);
+        entity.setThisUnit("FEET");
+        entity.setThisMeasurementType("LENGTH");
 
-        entity.setSecondValue(12.0);
-        entity.setSecondUnit("INCHES");
-        entity.setSecondMeasurementType("LENGTH");
+        entity.setThatValue(12.0);
+        entity.setThatUnit("INCHES");
+        entity.setThatMeasurementType("LENGTH");
 
         entity.setOperation("COMPARE");
 
-        entity.setResult("true");
+        entity.setResultString("true");
 
         entity.setError(false);
 

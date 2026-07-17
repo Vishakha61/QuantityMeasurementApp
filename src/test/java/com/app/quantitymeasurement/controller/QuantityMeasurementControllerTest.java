@@ -1,20 +1,28 @@
 package com.app.quantitymeasurement.controller;
 
+import com.app.quantitymeasurement.security.JwtAuthenticationFilter;
+import com.app.quantitymeasurement.security.JwtUtil;
 import com.app.quantitymeasurement.service.IQuantityMeasurementService;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
-
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@SpringBootTest
-class QuantityMeasurementControllerTest {
 
-    @MockitoBean
-    private IQuantityMeasurementService service;
+    @WebMvcTest(QuantityMeasurementController.class)
+    class QuantityMeasurementControllerTest {
 
-    @Test
-    void controllerLoads() {
-        assertNotNull(service);
+        @MockitoBean
+        private IQuantityMeasurementService service;
+
+        @MockitoBean
+        private JwtUtil jwtUtil;
+
+        @MockitoBean
+        private JwtAuthenticationFilter jwtAuthenticationFilter;
+
+        @Test
+        void controllerLoads() {
+            assertNotNull(service);
+        }
     }
-}
