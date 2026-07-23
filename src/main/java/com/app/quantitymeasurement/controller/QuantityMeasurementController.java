@@ -13,6 +13,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/quantity")
+
+@CrossOrigin(origins = "http://localhost:8080")
 @RequiredArgsConstructor
 public class QuantityMeasurementController {
 

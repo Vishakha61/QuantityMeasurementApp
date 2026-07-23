@@ -34,12 +34,27 @@ public class OAuth2LoginSuccessHandler
         String token =
                 jwtUtil.generateToken(email);
 
-        response.setContentType("application/json");
+        response.setContentType("text/html");
 
         response.getWriter().write("""
-                {
-                    "token":"%s"
-                }
-                """.formatted(token));
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Successful</title>
+</head>
+<body>
+
+<script>
+
+localStorage.setItem("jwt","%s");
+
+window.location.href="/index.html";
+
+</script>
+
+</body>
+</html>
+""".formatted(token));
+
     }
 }
