@@ -37,24 +37,20 @@ public class OAuth2LoginSuccessHandler
         response.setContentType("text/html");
 
         response.getWriter().write("""
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login Successful</title>
-</head>
-<body>
-
-<script>
-
-localStorage.setItem("jwt","%s");
-
-window.location.href="/index.html";
-
-</script>
-
-</body>
-</html>
-""".formatted(token));
-
-    }
-}
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Login Successful</title>
+                </head>
+                <body>
+                
+                <script>
+                
+                window.location.href = "http://localhost:5173/oauth-success?token=%s";
+                
+                </script>
+                
+                </body>
+                </html>
+                """.formatted(token));
+    }}

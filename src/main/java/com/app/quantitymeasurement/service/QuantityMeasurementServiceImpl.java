@@ -10,7 +10,8 @@ import com.app.quantitymeasurement.quantity.Quantity;
 import com.app.quantitymeasurement.repository.QuantityMeasurementRepository;
 import com.app.quantitymeasurement.unit.*;
 import org.springframework.stereotype.Service;
-
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import java.util.List;
 
 @Service
@@ -139,9 +140,23 @@ public class QuantityMeasurementServiceImpl
 
         entity.setErrorMessage(null);
 
+        entity.setUserEmail(getLoggedInUserEmail());
+
         repository.save(entity);
     }
+    private String getLoggedInUserEmail() {
 
+        Authentication authentication =
+                SecurityContextHolder.getContext().getAuthentication();
+
+        System.out.println("Authentication = " + authentication);
+
+        if(authentication != null){
+            System.out.println("User = " + authentication.getName());
+        }
+
+        return authentication.getName();
+    }
     private void saveError(
 
             QuantityDTO first,
@@ -191,7 +206,7 @@ public class QuantityMeasurementServiceImpl
         entity.setErrorMessage(
                 exception.getMessage()
         );
-
+        entity.setUserEmail(getLoggedInUserEmail());
         repository.save(entity);
     }
     @Override
@@ -248,6 +263,7 @@ public class QuantityMeasurementServiceImpl
         entity.setError(false);
 
         entity.setErrorMessage(null);
+        entity.setUserEmail(getLoggedInUserEmail());
 
         repository.save(entity);
 
@@ -451,6 +467,7 @@ public class QuantityMeasurementServiceImpl
 
             entity.setErrorMessage(null);
 
+            entity.setUserEmail(getLoggedInUserEmail());
             repository.save(entity);
 
             return result;
@@ -471,7 +488,7 @@ public class QuantityMeasurementServiceImpl
     public List<QuantityMeasurementDTO> getHistory() {
 
         return QuantityMeasurementDTO.fromEntityList(
-                repository.findAll()
+                repository.findByUserEmail(getLoggedInUserEmail())
         );
     }
 
@@ -501,7 +518,7 @@ public class QuantityMeasurementServiceImpl
     public List<QuantityMeasurementDTO> getErroredOperations() {
 
         return QuantityMeasurementDTO.fromEntityList(
-                repository.findByIsErrorTrue()
+                repository.findByUserEmailAndIsErrorTrue(getLoggedInUserEmail())
         );
     }
 

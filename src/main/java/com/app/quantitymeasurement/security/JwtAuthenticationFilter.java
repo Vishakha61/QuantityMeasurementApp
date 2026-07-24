@@ -56,6 +56,10 @@ public class JwtAuthenticationFilter
                 SecurityContextHolder
                         .getContext()
                         .setAuthentication(authentication);
+
+                System.out.println("JWT Token = " + token);
+
+                System.out.println("Email from JWT = " + email);
             }
         }
 

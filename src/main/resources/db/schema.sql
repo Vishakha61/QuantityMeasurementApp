@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS quantity_measurement_history (
 
     id INT PRIMARY KEY AUTO_INCREMENT,
 
+
     first_value DOUBLE NOT NULL,
 
     first_unit VARCHAR(30) NOT NULL,
@@ -24,5 +25,8 @@ CREATE TABLE IF NOT EXISTS quantity_measurement_history (
 
     error_message VARCHAR(255),
 
-    is_error BOOLEAN DEFAULT FALSE
+    is_error BOOLEAN DEFAULT FALSE,
+    user_email VARCHAR(255) NOT NULL,
+
+    created_at TIMESTAMP
     );

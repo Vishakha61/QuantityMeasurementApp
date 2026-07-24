@@ -68,6 +68,9 @@ public class QuantityMeasurementEntity {
 
     // Audit
 
+    @Column(nullable = false)
+    private String userEmail;
+
     @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
 
@@ -76,4 +79,6 @@ public class QuantityMeasurementEntity {
 
         createdAt = LocalDateTime.now();
     }
+
+
 }

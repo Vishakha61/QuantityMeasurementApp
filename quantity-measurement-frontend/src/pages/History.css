@@ -1,0 +1,116 @@
+.history__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.history__title {
+    font-size: 26px;
+    margin: 6px 0 4px;
+}
+
+.history__subtitle {
+    font-size: 13px;
+    color: var(--ink-faint);
+}
+
+.history__filters {
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.history__table-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.history__table-wrap {
+    overflow-x: auto;
+}
+
+.history__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+}
+
+.history__table th {
+    text-align: left;
+    padding: 14px 18px;
+    background: var(--surface-sunken);
+    color: var(--ink-faint);
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    border-bottom: 1px solid var(--border);
+}
+
+.history__table td {
+    padding: 13px 18px;
+    border-bottom: 1px solid var(--border);
+    color: var(--ink);
+}
+
+.history__table tbody tr:hover {
+    background: var(--paper);
+}
+
+.history__table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.mono {
+    font-family: var(--font-mono);
+}
+
+.history__op-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--teal-tint);
+    color: var(--teal-dark);
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.history__status {
+    font-size: 12.5px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.history__status--ok {
+    background: var(--success-tint);
+    color: var(--success);
+}
+
+.history__status--error {
+    background: var(--danger-tint);
+    color: var(--danger);
+}
+
+.history__state {
+    padding: 60px 20px;
+    text-align: center;
+    color: var(--ink-faint);
+    font-size: 13.5px;
+}
+
+.history__state--error {
+    color: var(--danger);
+}
+
+@media (max-width: 700px) {
+    .history__filters {
+        grid-template-columns: 1fr;
+    }
+}

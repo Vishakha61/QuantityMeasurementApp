@@ -24,7 +24,20 @@ public interface QuantityMeasurementRepository
     List<QuantityMeasurementEntity> findByCreatedAtAfter(
             LocalDateTime dateTime
     );
+    List<QuantityMeasurementEntity> findByUserEmail(String userEmail);
+    List<QuantityMeasurementEntity> findByUserEmailAndIsErrorTrue(String userEmail);
 
+    List<QuantityMeasurementEntity> findByUserEmailAndOperation(
+            String userEmail,
+            String operation
+    );
+
+    List<QuantityMeasurementEntity> findByUserEmailAndThisMeasurementType(
+            String userEmail,
+            String measurementType
+    );
+
+    long countByUserEmailAndIsErrorTrue(String userEmail);
     long countByOperationAndIsErrorFalse(
             String operation
     );
