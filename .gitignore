@@ -1,0 +1,14 @@
+# IntelliJ
+.idea/
+
+# Maven
+target/
+
+# Local properties
+auth-service/target/classes/application-local.properties
+
+# Frontend
+node_modules/
+
+# OS files
+.DS_Store

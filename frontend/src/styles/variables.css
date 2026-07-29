@@ -1,0 +1,75 @@
+:root {
+    /* ---- Palette: "calibration" theme ---- */
+    --ink: #101828;
+    --ink-soft: #475066;
+    --ink-faint: #8a93a6;
+
+    --paper: #f6f7f9;
+    --surface: #ffffff;
+    --surface-sunken: #eef1f5;
+
+    --border: #e1e5eb;
+    --border-strong: #c7cedb;
+
+    --teal: #0e7c86;
+    --teal-dark: #0a5f67;
+    --teal-tint: #e3f2f2;
+
+    --amber: #d9822b;
+    --amber-tint: #fbead9;
+
+    --success: #1f9d55;
+    --success-tint: #e5f7ec;
+
+    --danger: #d64545;
+    --danger-tint: #fbe8e8;
+
+    /* ---- Navbar (fixed dark brand bar, same in both themes) ---- */
+    --navbar-bg-start: #151b3d;
+    --navbar-bg-end: #1e2a68;
+    --navbar-text: #e7eaf6;
+    --navbar-text-dim: rgba(231, 234, 246, 0.65);
+    --navbar-pill-active-bg: #ffffff;
+    --navbar-pill-active-text: #1e2a68;
+
+    /* ---- Type ---- */
+    --font-display: "Space Grotesk", "Inter", sans-serif;
+    --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+    /* ---- Layout ---- */
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+    --shadow-md: 0 6px 20px rgba(16, 24, 40, 0.08);
+    --shadow-lg: 0 20px 45px rgba(16, 24, 40, 0.12);
+
+    --navbar-height: 68px;
+}
+
+/* ---- Dark theme overrides (toggled via data-theme="dark" on <html>) ---- */
+[data-theme="dark"] {
+    --ink: #eef1f7;
+    --ink-soft: #b7bfd1;
+    --ink-faint: #7d879c;
+
+    --paper: #0c1020;
+    --surface: #12172c;
+    --surface-sunken: #1a2038;
+
+    --border: #262f4c;
+    --border-strong: #333e60;
+
+    --teal: #23a3ae;
+    --teal-dark: #35c3cf;
+    --teal-tint: #12313a;
+
+    --amber-tint: #3a2c17;
+    --success-tint: #123321;
+    --danger-tint: #3a1919;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 20px 45px rgba(0, 0, 0, 0.55);
+}
